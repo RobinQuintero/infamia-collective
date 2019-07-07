@@ -1,0 +1,16 @@
+.Cbutton{
+    color:white !important;
+    width:60;
+}
+
+.Cbutton:hover{
+    text-decoration: none;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+body{
+    padding:0
+}
