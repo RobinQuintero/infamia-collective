@@ -1,5 +1,6 @@
 <script>
 export let text
+export let link
 </script>
 
 <style>
@@ -37,4 +38,4 @@ export let text
 
 </style>
 
-<a href="" class="Cbutton underline_left" >{text}</a>
+<a href={link} class="Cbutton underline_left" >{text}</a>

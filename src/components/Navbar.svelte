@@ -13,7 +13,7 @@ import Underline_left from './buttons/Underline_left.svelte'
     }
 </style>
 
-<div class="navbarc navbar-fixed">
+<div class="navbarc navbar-fixed hide-on-large-only">
     <nav>
         <div class="nav-wrapper">
         <a href="#!" class="brand-logo"><img src="../img/cold.png" alt="" height="60"></a>

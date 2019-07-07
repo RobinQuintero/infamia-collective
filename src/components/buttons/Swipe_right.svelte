@@ -1,6 +1,7 @@
 <script>
 export let text
 export let link
+export let hide
 </script>
 
 <style>
@@ -47,4 +48,8 @@ export let link
     }
 </style>
 
+{#if hide==true}
+<a href={link} class="Cbutton boton hide-on-large-only">{text}</a>
+{:else}
 <a href={link} class="Cbutton boton">{text}</a>
+{/if}
