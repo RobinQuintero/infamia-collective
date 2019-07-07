@@ -5,6 +5,7 @@
 
 .Cbutton:hover{
     text-decoration: none;
+    cursor:pointer;
 }
 
 ::-webkit-scrollbar { 

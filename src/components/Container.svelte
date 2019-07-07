@@ -3,10 +3,11 @@
 
 <style>
 .main{
-    height:100vh
+    height:100vh !important;
+    margin:0 !important;
 }
 </style>
 
-<div class="main container">
+<div class="main row">
 <slot></slot>
 </div>

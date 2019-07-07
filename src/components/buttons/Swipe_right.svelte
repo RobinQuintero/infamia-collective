@@ -1,5 +1,6 @@
 <script>
 export let text
+export let link
 </script>
 
 <style>
@@ -46,4 +47,4 @@ export let text
     }
 </style>
 
-<a href="http://google.com" class="Cbutton boton">{text}</a>
+<a href={link} class="Cbutton boton">{text}</a>
